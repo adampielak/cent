@@ -22,7 +22,7 @@ import (
 
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/cobra"
-	"github.com/xm1k3/cent/internal/utils"
+	"github.com/adampielak/cent/internal/utils"
 )
 
 // initCmd represents the init command
@@ -43,7 +43,7 @@ var initCmd = &cobra.Command{
 		}
 
 		if linkFlag == "" {
-			fileUrl = "https://raw.githubusercontent.com/xm1k3/cent/main/.cent.yaml"
+			fileUrl = "https://raw.githubusercontent.com/adampielak/cent/main/.cent.yaml"
 		} else {
 			fileUrl = linkFlag
 		}
