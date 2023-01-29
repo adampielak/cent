@@ -17,6 +17,4 @@ package main
 
 import "github.com/adampielak/cent/cmd"
 
-func main() {
-	cmd.Execute()
-}
+func main() { cmd.Execute() }
