@@ -18,13 +18,13 @@ Community edition nuclei templates, a simple tool that allows you to organize al
 
 # Install
 ```
-GO111MODULE=on go install -v github.com/xm1k3/cent@latest
+GO111MODULE=on go install -v github.com/adampielak/cent@latest
 ```
 
-Or [download from releases](https://github.com/xm1k3/cent/releases)
+Or [download from releases](https://github.com/adampielak/cent/releases)
 <br><br>
 
-after installation run `cent init` to initialize cent with the configuration files you find [here](https://github.com/xm1k3/cent/blob/main/.cent.yaml) 
+after installation run `cent init` to initialize cent with the configuration files you find [here](https://github.com/adampielak/cent/blob/main/.cent.yaml) 
 
 
 # Supported commands
@@ -56,7 +56,7 @@ Flags:
 ```
 
 # Init flags
-This command will automatically download [`.cent.yaml`](https://raw.githubusercontent.com/xm1k3/cent/main/.cent.yaml) from repo and copy it to `$HOME/.cent.yaml`
+This command will automatically download [`.cent.yaml`](https://raw.githubusercontent.com/adampielak/cent/main/.cent.yaml) from repo and copy it to `$HOME/.cent.yaml`
 ```
 Flags:
   -h, --help         help for init
