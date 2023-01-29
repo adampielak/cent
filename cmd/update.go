@@ -63,7 +63,6 @@ var updateCmd = &cobra.Command{
 
 func init() {
 	rootCmd.AddCommand(updateCmd)
-
 	updateCmd.Flags().BoolP("directories", "d", false, "If true remove unnecessary folders from updated $HOME/.cent.yaml")
 	updateCmd.Flags().BoolP("files", "f", false, "If true remove unnecessary files from updated $HOME/.cent.yaml")
 	updateCmd.Flags().StringP("path", "p", "", "Path to folder with nuclei templates")
