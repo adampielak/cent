@@ -16,3 +16,16 @@
 
 # The binary
 cent
+
+#
+.*
+._*
+config.yml
+cve-annotate.yml
+templates-stats.yml
+template-validate.yml
+syntax-checking.yml
+readme-update.yml
+!.gitignore
+!.yaml
+!.yml
