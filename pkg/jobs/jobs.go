@@ -17,7 +17,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/go-git/go-git/v5"
 	"github.com/spf13/viper"
-	"github.com/xm1k3/cent/internal/utils"
+	"github.com/adampielak/cent/internal/utils"
 )
 
 func cloneRepo(gitPath string, console bool, index string, timestamp string) error {
@@ -92,7 +92,7 @@ func Start(_path string, keepfolders bool, console bool, threads int, defaultTim
 					if !keepfolders {
 						directory = ""
 					}
-					utils.RunCommand("cp "+path+" "+filepath.Join(_path, directory), console, defaultTimeout)
+					utils.RunCommand("cp -t "+path+" "+filepath.Join(_path, directory), console, defaultTimeout)
 				}
 			}
 			return nil
