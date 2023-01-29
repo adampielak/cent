@@ -1,4 +1,4 @@
-module github.com/xm1k3/cent
+module github.com/adampielak/cent
 
 go 1.18
 
